@@ -1,0 +1,121 @@
+html {
+    font-size: 10px;
+    font-family: sans-serif;
+   }
+   p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+   }
+   h1 {
+    font-family:'billabongregular';
+    text-align: center;
+    font-weight: 100;
+    font-size: 13rem;
+    margin: 2rem 0;
+    letter-spacing: -1px;
+    color: black;
+    text-decoration: none;
+   }
+   @font-face {
+    font-family: 'billabongregular';
+    src: url(Billabong.ttf);
+    font-weight: normal;
+    font-style: normal;
+   }
+   body {
+    background: darkslategray;
+   }
+   .photoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+   }
+   .figure {
+    flex-basis: calc(33.333% - 4rem);
+    border: 1px solid #d3d3d3;
+    padding: 2rem;
+    flex-grow: 1;
+    margin: 0 2rem 2rem 2rem;
+   }
+  
+   .photo {
+    width: calc(100% + 4rem);
+    margin-left: -2rem;
+    margin-top: -2rem;
+    max-width: none;
+   }
+   .button-container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   button, .button {
+    border: 2px solid #f2f2f2;
+    background: plum;
+    flex-basis: 48%;
+    display: inline-block;
+    line-height: 2;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    transition: all 0.2s;
+    box-sizing: padding-box;
+   }
+    
+.addIcon {
+    margin: 20px auto;
+    display: table;
+    padding: 40px;
+    background: url("plusPic.jpeg");
+    background-size: contain;
+    border: none;
+}
+
+.form {
+    background: oldlace;
+    margin: 0 auto;
+    max-width: 360px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input {
+    font-family: sans-serif;
+    background:#f2f2f2;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin: 0 0 15px;
+}
+
+.form input:hover {
+    background: lightseagreen;
+}
+
+.postButton button {
+    padding: 0px 8px 0px 8px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.postButton button:hover {
+    background: darkblue;;
+}
+
+.mainPageBtn button {
+    padding: 0px 8px 0px 8px;
+    font-family: sans-serif;
+    display:inline-block;
+    background: orangered;
+}
+
+.mainPageBtn button:hover {
+    background: blue;
+}
